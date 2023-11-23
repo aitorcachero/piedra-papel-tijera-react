@@ -1,0 +1,42 @@
+.section-input-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  height: 100vh;
+}
+
+.form-name {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1em;
+  box-shadow: 0 0 10px black;
+  background-color: #242424;
+  border-radius: 20px;
+}
+
+.input-name {
+  width: 220px;
+  height: 50px;
+  text-align: center;
+  padding: 1em;
+  font-size: 20px;
+}
+
+.btn-comenzar {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+  font-size: large;
+}
+
+.btn-comenzar:hover {
+  background-color: rgb(10, 148, 10);
+  font-size: 20px;
+}
